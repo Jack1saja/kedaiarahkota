@@ -1,0 +1,601 @@
+<!DOCTYPE html>
+<html lang="fr">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <!--=============== FAVICON ===============-->
+    <link
+      rel="shortcut icon"
+      href="assets/img/favicon.png"
+      type="image/x-icon" />
+
+    <!--=============== REMIXICONS ===============-->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/remixicon/4.6.0/remixicon.min.css" />
+
+    <!--=============== SWIPER CSS ===============-->
+    <link rel="stylesheet" href="assets/css/swiper-bundle.min.css" />
+
+    <!--=============== CSS ===============-->
+    <link rel="stylesheet" href="assets/css/styles.css" />
+
+    <title>KEDAI ARAHKOTA</title>
+  </head>
+  <body>
+    <!--==================== HEADER ====================-->
+    <header class="header" id="header">
+      <nav class="nav container">
+        <a href="#" class="nav__logo">KEDAI ARAHKOTA</a>
+
+        <div class="nav__menu" id="nav-menu">
+          <ul class="nav__list">
+            <li>
+              <a href="#home" class="nav__link active-link">BERANDA</a>
+            </li>
+
+            <li>
+              <a href="#popular" class="nav__link">FAVORIT</a>
+            </li>
+
+            <li>
+              <a href="#about" class="nav__link">TENTANG KAMI</a>
+            </li>
+
+            <li>
+              <a href="#products" class="nav__link">MENU</a>
+            </li>
+
+            <li>
+              <a href="#contact" class="nav__link">KONTAK</a>
+            </li>
+          </ul>
+
+          <!-- Close Button -->
+          <div class="nav__close" id="nav-close">
+            <i class="ri-close-large-line"></i>
+          </div>
+        </div>
+
+        <!-- Toggle Button -->
+        <div class="nav__toggle" id="nav-toggle">
+          <i class="ri-apps-2-fill"></i>
+        </div>
+      </nav>
+    </header>
+
+    <!--==================== MAIN ====================-->
+    <main class="main">
+      <!--==================== HOME ====================-->
+      <section class="home section" id="home">
+        <div class="home__container container grid">
+          <h1 class="home__title">ES KOPI DINGIN</h1>
+
+          <div class="home__images">
+            <div class="home__shape"></div>
+            <img
+              src="assets/img/home-splash.png"
+              alt="image"
+              class="home__splash" />
+            <img
+              src="assets/img/bean-img.png"
+              alt="image"
+              class="home__bean-2" />
+            <img
+              src="assets/img/home-coffee.png"
+              alt="image"
+              class="home__coffee" />
+            <img
+              src="assets/img/bean-img.png"
+              alt="image"
+              class="home__bean-1" />
+            <img src="assets/img/ice-img.png" alt="image" class="home__ice-1" />
+            <img src="assets/img/ice-img.png" alt="image" class="home__ice-2" />
+            <img src="assets/img/leaf-img.png" alt="image" class="home__leaf" />
+          </div>
+
+          <img
+            src="assets/img/home-sticker.svg"
+            alt="image"
+            class="home__sticker" />
+
+          <div class="home__data">
+            <p class="home__description">
+              Temukan berbagai kopi nikmat, panas maupun dingin, dengan varietas terbaik, puaskan keinginan kamu dan nikmati kopi berkualitas. Pesan sekarang juga.
+            </p>
+
+            <a href="#about" class="button">LIHAT LEBIH</a>
+          </div>
+        </div>
+      </section>
+
+      <!--==================== POPULAR ====================-->
+      <section class="popular section" id="popular">
+        <div class="popular__container container">
+          <h2 class="section__title">
+            RACIKAN <br />
+            FAVORIT
+          </h2>
+
+          <div class="popular__swiper swiper">
+            <div class="swiper-wrapper">
+              <article class="popular__card swiper-slide">
+                <div class="popular__images">
+                  <div class="popular__shape"></div>
+                  <img
+                    src="assets/img/bean-img.png"
+                    alt="image"
+                    class="popular__bean-1" />
+                  <img
+                    src="assets/img/bean-img.png"
+                    alt="image"
+                    class="popular__bean-2" />
+                  <img
+                    src="assets/img/popular-coffee-1.png"
+                    alt="image"
+                    class="popular__coffee" />
+                </div>
+
+                <div class="popular__data">
+                  <h2 class="popular__name">LATTE VANILLA</h2>
+
+                  <p class="popular__description">
+                    Nikmati kesederhanaan dari kopi seduh dingin (cold brew) kami yang lezat.
+                  </p>
+
+                  <a href="#contact" class="button button-dark"
+                    >PESAN : Rp 35.000</a
+                  >
+                </div>
+              </article>
+
+              <article class="popular__card swiper-slide">
+                <div class="popular__images">
+                  <div class="popular__shape"></div>
+                  <img
+                    src="assets/img/bean-img.png"
+                    alt="image"
+                    class="popular__bean-1" />
+                  <img
+                    src="assets/img/bean-img.png"
+                    alt="image"
+                    class="popular__bean-2" />
+                  <img
+                    src="assets/img/popular-coffee-2.png"
+                    alt="image"
+                    class="popular__coffee" />
+                </div>
+
+                <div class="popular__data">
+                  <h2 class="popular__name">KOPI KLASIK</h2>
+
+                  <p class="popular__description">
+                    Laissez-vous tenter par la simplicité de notre délicieux
+                    café infusé à froid.
+                  </p>
+
+                  <a href="#contact" class="button button-dark"
+                    >Commander : 9,90 €</a
+                  >
+                </div>
+              </article>
+
+              <article class="popular__card swiper-slide">
+                <div class="popular__images">
+                  <div class="popular__shape"></div>
+                  <img
+                    src="assets/img/bean-img.png"
+                    alt="image"
+                    class="popular__bean-1" />
+                  <img
+                    src="assets/img/bean-img.png"
+                    alt="image"
+                    class="popular__bean-2" />
+                  <img
+                    src="assets/img/popular-coffee-3.png"
+                    alt="image"
+                    class="popular__coffee" />
+                </div>
+
+                <div class="popular__data">
+                  <h2 class="popular__name">KOPI MOCHA</h2>
+
+                  <p class="popular__description">
+                    Laissez-vous tenter par la simplicité de notre délicieux
+                    café infusé à froid.
+                  </p>
+
+                  <a href="#contact" class="button button-dark"
+                    >Commander : 9,90 €</a
+                  >
+                </div>
+              </article>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!--==================== ABOUT ====================-->
+      <section class="about section" id="about">
+        <div class="about__container container grid">
+          <div class="about__data">
+            <h2 class="section__title">
+              TENTANG KAMI
+            </h2>
+
+            <p class="about__description">
+              Selamat datang di KEDAI ARAHKOTA, di mana kopi adalah passion sejati. 
+              Dari biji hingga ke cangkir, kami berkomitmen untuk menyajikan keunggulan di setiap tegukan. 
+              Bergabunglah dengan kami untuk perjalanan rasa dan kualitas, dibuat dengan cinta untuk menciptakan pengalaman kopi terbaik.
+            </p>
+
+            <a href="#popular" class="button">MENU TERBAIK</a>
+          </div>
+
+          <div class="about__images">
+            <div class="about__shape"></div>
+            <img
+              src="assets/img/leaf-img.png"
+              alt="image"
+              class="about__leaf-1" />
+            <img
+              src="assets/img/leaf-img.png"
+              alt="image"
+              class="about__leaf-2" />
+            <img
+              src="assets/img/about-coffee.png"
+              alt="image"
+              class="about__coffee" />
+          </div>
+        </div>
+      </section>
+
+      <!--==================== PRODUCTS ====================-->
+      <section class="products section" id="products">
+        <h2 class="section__title">
+          PALING BANYAK <br> DICARI
+        </h2>
+
+        <div class="products__container container grid">
+          <article class="products__card">
+            <div class="products__images">
+              <div class="products__shape"></div>
+
+              <img
+                src="assets/img/ice-img.png"
+                alt="image"
+                class="products__ice-1" />
+              <img
+                src="assets/img/ice-img.png"
+                alt="image"
+                class="products__ice-2" />
+              <img
+                src="assets/img/products-coffee-1.png"
+                alt="image"
+                class="products__coffee" />
+            </div>
+
+            <div class="products__data">
+              <h3 class="products__name">CAFÉ MOCHA</h3>
+
+              <span class="products__price">15,90 €</span>
+
+              <button class="products__button">
+                <i class="ri-shopping-bag-3-fill"></i>
+              </button>
+            </div>
+          </article>
+
+          <article class="products__card">
+            <div class="products__images">
+              <div class="products__shape"></div>
+
+              <img
+                src="assets/img/ice-img.png"
+                alt="image"
+                class="products__ice-1" />
+              <img
+                src="assets/img/ice-img.png"
+                alt="image"
+                class="products__ice-2" />
+              <img
+                src="assets/img/products-coffee-2.png"
+                alt="image"
+                class="products__coffee" />
+            </div>
+
+            <div class="products__data">
+              <h3 class="products__name">CAFÉ CRÈME</h3>
+
+              <span class="products__price">11,90 €</span>
+
+              <button class="products__button">
+                <i class="ri-shopping-bag-3-fill"></i>
+              </button>
+            </div>
+          </article>
+
+          <article class="products__card">
+            <div class="products__images">
+              <div class="products__shape"></div>
+
+              <img
+                src="assets/img/ice-img.png"
+                alt="image"
+                class="products__ice-1" />
+              <img
+                src="assets/img/ice-img.png"
+                alt="image"
+                class="products__ice-2" />
+              <img
+                src="assets/img/products-coffee-3.png"
+                alt="image"
+                class="products__coffee" />
+            </div>
+
+            <div class="products__data">
+              <h3 class="products__name">CAPPUCCINO</h3>
+
+              <span class="products__price">19,90 €</span>
+
+              <button class="products__button">
+                <i class="ri-shopping-bag-3-fill"></i>
+              </button>
+            </div>
+          </article>
+
+          <article class="products__card">
+            <div class="products__images">
+              <div class="products__shape"></div>
+
+              <img
+                src="assets/img/ice-img.png"
+                alt="image"
+                class="products__ice-1" />
+              <img
+                src="assets/img/ice-img.png"
+                alt="image"
+                class="products__ice-2" />
+              <img
+                src="assets/img/products-coffee-4.png"
+                alt="image"
+                class="products__coffee" />
+            </div>
+
+            <div class="products__data">
+              <h3 class="products__name">CAFÉ AU LAIT</h3>
+
+              <span class="products__price">9,90 €</span>
+
+              <button class="products__button">
+                <i class="ri-shopping-bag-3-fill"></i>
+              </button>
+            </div>
+          </article>
+
+          <article class="products__card">
+            <div class="products__images">
+              <div class="products__shape"></div>
+
+              <img
+                src="assets/img/ice-img.png"
+                alt="image"
+                class="products__ice-1" />
+              <img
+                src="assets/img/ice-img.png"
+                alt="image"
+                class="products__ice-2" />
+              <img
+                src="assets/img/products-coffee-5.png"
+                alt="image"
+                class="products__coffee" />
+            </div>
+
+            <div class="products__data">
+              <h3 class="products__name">CAFÉ GLACÉ</h3>
+
+              <span class="products__price">5,90 €</span>
+
+              <button class="products__button">
+                <i class="ri-shopping-bag-3-fill"></i>
+              </button>
+            </div>
+          </article>
+
+          <article class="products__card">
+            <div class="products__images">
+              <div class="products__shape"></div>
+
+              <img
+                src="assets/img/ice-img.png"
+                alt="image"
+                class="products__ice-1" />
+              <img
+                src="assets/img/ice-img.png"
+                alt="image"
+                class="products__ice-2" />
+              <img
+                src="assets/img/products-coffee-6.png"
+                alt="image"
+                class="products__coffee" />
+            </div>
+
+            <div class="products__data">
+              <h3 class="products__name">FRAPPÉ GLACÉ</h3>
+
+              <span class="products__price">16,90 €</span>
+
+              <button class="products__button">
+                <i class="ri-shopping-bag-3-fill"></i>
+              </button>
+            </div>
+          </article>
+        </div>
+      </section>
+
+      <!--==================== CONTACT ====================-->
+      <section class="contact section" id="contact">
+        <h2 class="section__title">HUBUNGI KAMI</h2>
+
+        <div class="contact__container container grid">
+          <div class="contact__info grid">
+            <div>
+              <h3 class="contact__title">CHAT KAMI</h3>
+
+              <div class="contact__social">
+                <a
+                  href="https://api.whatsapp.com/send?phone=6285163133417&text=Hello "
+                  target="_blank"
+                  class="contact__social-link">
+                  <i class="ri-whatsapp-fill"></i>
+                </a>
+
+                <a
+                  href="https://m.me/"
+                  target="_blank"
+                  class="contact__social-link">
+                  <i class="ri-messenger-fill"></i>
+                </a>
+
+                <a
+                  href="https://t.me/telegram"
+                  target="_blank"
+                  class="contact__social-link">
+                  <i class="ri-telegram-2-fill"></i>
+                </a>
+              </div>
+            </div>
+
+            <div>
+              <h3 class="contact__title">LOKASI</h3>
+
+              <address class="contact__address">
+                JL sidodadi aku ra ngerti <br />
+                75011 sidodadi
+              </address>
+
+              <a
+                href="https://maps.app.goo.gl/1oxPZ14fjYENKauK9"
+                target="_blank"
+                class="contact__map">
+                <i class="ri-map-pin-fill"></i>
+                <span>LIHAT DI MAPS</span>
+              </a>
+            </div>
+          </div>
+
+          <div class="contact__info grid">
+            <div>
+              <h3 class="contact__title">PENGIRIMAN</h3>
+
+              <address class="contact__address">
+                +62 6666666
+                <br />
+                +62 8888888
+              </address>
+            </div>
+
+            <div>
+              <h3 class="contact__title">JAM BUKA</h3>
+
+              <address class="contact__address">
+                Senin - Minggu <br />
+                07.00 - 22.00
+              </address>
+            </div>
+          </div>
+
+          <div class="contact__images">
+            <div class="contact__shape"></div>
+            <img
+              src="assets/img/contact-delivery.png"
+              alt="image"
+              class="contact__delivery" />
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <!--==================== FOOTER ====================-->
+    <footer class="footer">
+      <div class="footer__container container grid">
+        <div>
+          <h3 class="footer__title">MEDIA SOSIAL</h3>
+
+          <div class="footer__social">
+            <a
+              href="https://www.facebook.com/"
+              target="_blank"
+              class="footer__social-link">
+              <i class="ri-facebook-circle-fill"></i>
+            </a>
+            <a
+              href="https://www.instagram.com/"
+              target="_blank"
+              class="footer__social-link">
+              <i class="ri-instagram-fill"></i>
+            </a>
+            <a
+              href="https://twitter.com/"
+              target="_blank"
+              class="footer__social-link">
+              <i class="ri-twitter-x-fill"></i>
+            </a>
+          </div>
+        </div>
+
+        <div>
+          <h3 class="footer__title">METODE PEMBAYARAN</h3>
+
+          <div class="footer__pay">
+            <img
+              src="assets/img/footer-card-1.png"
+              alt="image"
+              class="footer__pay-card" />
+            <img
+              src="assets/img/footer-card-2.png"
+              alt="image"
+              class="footer__pay-card" />
+            <img
+              src="assets/img/footer-card-3.png"
+              alt="image"
+              class="footer__pay-card" />
+            <img
+              src="assets/img/footer-card-4.png"
+              alt="image"
+              class="footer__pay-card" />
+          </div>
+        </div>
+
+        <div>
+          <h3 class="footer__title">BERLANGGANAN</h3>
+
+          <form action="" class="footer__form">
+            <input type="email" placeholder="Email" class="footer__input" />
+            <button type="submit" class="footer__button button">
+              DAFTAR
+            </button>
+          </form>
+        </div>
+      </div>
+
+      <span class="footer__copy">
+        &#169; All rights reserved | KEDAI ARAHKOTA
+      </span>
+    </footer>
+    <!--========== SCROLL UP ==========-->
+    <a href="#" class="scrollup" id="scroll-up">
+      <i class="ri-arrow-up-line"></i>
+    </a>
+
+    <!--=============== SCROLLREVEAL ===============-->
+    <script src="assets/js/scrollreveal.min.js"></script>
+
+    <!--=============== SWIPER JS ===============-->
+    <script src="assets/js/swiper-bundle.min.js"></script>
+
+    <!--=============== MAIN JS ===============-->
+    <script src="assets/js/main.js"></script>
+  </body>
+</html>
